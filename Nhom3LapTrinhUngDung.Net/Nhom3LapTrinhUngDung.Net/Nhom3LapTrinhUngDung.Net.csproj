@@ -150,6 +150,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="QuanLy\frm_QuanLyDanhMuc.resx">
+      <DependentUpon>frm_QuanLyDanhMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\frm_QuanLyNhaCungCap.resx">
+      <DependentUpon>frm_QuanLyNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\frm_QuanLyNhapKho.resx">
+      <DependentUpon>frm_QuanLyNhapKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\frm_QuanLySanPham.resx">
+      <DependentUpon>frm_QuanLySanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\frm_QuanLyTaiKhoan.resx">
+      <DependentUpon>frm_QuanLyTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
